@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Post } from './post.model';
+import { Post } from '../post.model';
 import { HttpClient, HttpEventType, HttpHeaders, HttpParams, HttpResponseBase } from '@angular/common/http';
 import { Observable, Subject, catchError, map, tap, throwError } from 'rxjs';
 

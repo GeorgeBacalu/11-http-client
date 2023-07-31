@@ -4,8 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
-import { AuthInterceptorService } from './auth-interceptor.service';
-import { LoggingInterceptorService } from './logging-interceptor.service';
+import { AuthInterceptorService } from './service/auth-interceptor.service';
+import { LoggingInterceptorService } from './service/logging-interceptor.service';
 
 @NgModule({
   declarations: [
